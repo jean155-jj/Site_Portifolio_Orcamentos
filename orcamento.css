@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background:
+        linear-gradient(rgba(0, 0, 0, 0.90), rgba(0, 0, 0, 0.90)),
+        url('imagens/FUNDO.png');
+
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: sans-serif;
+}
+
+header,
+footer {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+header {
+    background-color: #2B2B2B;
+    color: #ffffff;
+    padding: 15px 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 7px solid #FFC107;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.bot1,
+.bot2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 100;
+    text-align: center;
+    color: #000000;
+    border: none;
+    background-color: yellow;
+    margin: 5px 1px;
+    cursor: pointer;
+    text-align: center;
+    padding: 8px 20px;
+    font-size: small;
+    border-radius: 5px;
+    display: inline-block;
+    border: 1px solid black;
+    text-decoration: none;
+}

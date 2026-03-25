@@ -1,19 +1,90 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>SCR Portifólio</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
-    <script src='main.js'></script>
+    <link rel='stylesheet' type='text/css' media='screen' href='portifolio.css'>
+    <script src='portifolio.js'></script>
 </head>
 <header>
     <h1 class="topo">Soares Construções e Reparos</h1>
     <h2>Reformas e Reparos com qualidade e confiança</h2>
+</header>
+
 <body>
     <div class="cabeçalho">
-        <button onclick="window.location.href='Main.html'" class="botTitulo" >INICIO</button>
-        <button onclick="window.location.href='orcamento.html'" class="botTitulo" >ORÇAMENTO</button>
+        <button onclick="window.location.href='portifolio.html'" class="bot1">PORTIFÓLIO</button>
+        <button onclick="window.location.href='orcamento.html'" class="bot2">ORÇAMENTO</button>
     </div>
 </body>
+
+<main>
+    <div class="filtros">
+        <button data-filter="todos">Todos</button>
+        <button data-filter="encanamento">Encanamento</button>
+        <button data-filter="reforma">Reforma</button>
+        <button data-filter="pisos">Piso</button>
+    </div>
+    <section class="portifolio">
+        <h1>Portifólio</h1>
+        <p>Ao longo do tempo, realizamos diversos trabalhos que refletem nosso compromisso com qualidade, organização e
+            atenção aos detalhes. Cada projeto executado representa não apenas um serviço concluído, mas a confiança
+            depositada por nossos clientes e o cuidado que temos em entregar sempre o melhor resultado.
+            Nesta página, você poderá acompanhar um pouco do nosso dia a dia através das imagens dos serviços já
+            realizados. Logo abaixo, estão reunidos diferentes tipos de trabalhos, mostrando na prática nossa atuação em
+            diversas áreas. Conforme você navega pela página, os projetos passam a ser organizados por categorias,
+            facilitando a visualização de serviços específicos como encanamento, piso e azulejos, além de reformas em
+            geral.
+            Se preferir, você também pode utilizar os filtros disponíveis para encontrar exatamente o tipo de serviço
+            que deseja visualizar.
+            Fique à vontade para explorar cada imagem e conhecer de perto a qualidade do nosso trabalho.</p>
+    </section>
+
+    <div class="galeria_todos">
+        <h1>Todos</h1>
+        <div class="item" data-category="todos">
+            <img src="imagens/FUNDO.png" width="250">
+            <img src="imagens/FUNDO.png" width="250">
+            <img src="imagens/FUNDO.png" width="250">
+            <img src="imagens/FUNDO.png" width="250">
+            <img src="imagens/FUNDO.png" width="250">
+            <img src="imagens/FUNDO.png" width="250">
+        </div>
+    </div>
+    <div class="galeria_encanamento">
+        <h1>Todos</h1>
+        <div class="item" data-category="todos">
+            <img src="imagens/FUNDO.png" width="250">
+            <img src="imagens/FUNDO.png" width="250">
+            <img src="imagens/FUNDO.png" width="250">
+            <img src="imagens/FUNDO.png" width="250">
+            <img src="imagens/FUNDO.png" width="250">
+            <img src="imagens/FUNDO.png" width="250">
+        </div>
+    </div>
+    <div class="galeria_reforma">
+        <h1>Todos</h1>
+        <div class="item" data-category="todos">
+            <img src="imagens/FUNDO.png" width="250">
+            <img src="imagens/FUNDO.png" width="250">
+            <img src="imagens/FUNDO.png" width="250">
+            <img src="imagens/FUNDO.png" width="250">
+            <img src="imagens/FUNDO.png" width="250">
+            <img src="imagens/FUNDO.png" width="250">
+        </div>
+    </div>
+    <div class="galeria_piso">
+        <h1>Todos</h1>
+        <div class="item" data-category="todos">
+            <img src="imagens/FUNDO.png" width="250">
+            <img src="imagens/FUNDO.png" width="250">
+            <img src="imagens/FUNDO.png" width="250">
+            <img src="imagens/FUNDO.png" width="250">
+            <img src="imagens/FUNDO.png" width="250">
+            <img src="imagens/FUNDO.png" width="250">
+        </div>
+    </div>
+</main>

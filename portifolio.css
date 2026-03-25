@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background:
+        linear-gradient(rgba(0, 0, 0, 0.90), rgba(0, 0, 0, 0.90)),
+        url('imagens/FUNDO.png');
+
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: sans-serif;
+}
+
+header,
+footer {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+header {
+    background-color: #2B2B2B;
+    color: #ffffff;
+    padding: 15px 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 7px solid #FFC107;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.bot1,
+.bot2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 100;
+    text-align: center;
+    color: #000000;
+    border: none;
+    background-color: yellow;
+    margin: 5px 1px;
+    cursor: pointer;
+    text-align: center;
+    padding: 8px 20px;
+    font-size: small;
+    border-radius: 5px;
+    display: inline-block;
+    border: 1px solid black;
+    text-decoration: none;
+}
+
+.portifolio {
+    max-width: 900px;
+    margin: 60px auto;
+    width: 90%;
+    padding: 40px 30px;
+    text-align: center;
+    background-color: #2B2B2B;
+    border-radius: 12px;
+    border-bottom: 4px solid #f1c40f;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+    color: white;
+}
+
+.galeria_todos {
+    max-width: 1000px;
+    margin: 60px auto;
+    padding: 30px;
+    background: #2B2B2B;
+    border-radius: 12px;
+    border-bottom: 4px solid #f1c40f;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+.galeria_todos .item {
+    display: flex;
+    gap: 10px;
+    overflow-x: auto;
+    margin-top: 20px;
+    scroll-behavior: smooth;
+    padding-bottom: 20px;
+}
+
+.galeria_todos .item::-webkit-scrollbar{
+  height: 5%;
+}
+
+.galeria_todos .item ::-webkit-scrollbar-track{
+    background: transparent;
+}
+
+.galeria_todos .item ::-webkit-scrollbar-thumb{
+    background: #f1c40f;
+    border-radius: 10px;
+}
+
+.galeria_todos .item :: ::-webkit-scrollbar-thumb:hover{
+    background: #ffdd33;
+}
