@@ -3,6 +3,15 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    background: 
+        linear-gradient(rgba(0,0,0,0.90), rgba(0,0,0,0.90)),
+        url('imagens/FUNDO.png');
+
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
 
 header, footer{
     background-size: cover;
@@ -63,8 +72,70 @@ header{
 .BemVindo{
     text-align: center;
     padding: 10px;
+    margin-top: 40px;
+    margin-top: 30px;
+}
+
+.BemVindo h1{
+    color: white;
+}
+
+.BemVindo p{
+    color: #f1c40f;
 }
 
 h2{
     text-align: center;
 }
+
+.sobre {
+    max-width: 900px;
+    margin: 60px auto; 
+    padding: 40px 30px;
+    text-align: center;
+    background-color: #2B2B2B;
+    border-radius: 12px;
+    border-bottom: 4px solid #f1c40f; 
+    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+    color: white;
+}
+
+.sobre h2 {
+    margin-bottom: 20px;
+    font-size: 28px;
+}
+
+.sobre h3 {
+    font-weight: normal;
+    color: #ccc;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.sobre h4 {
+    color: #aaa;
+    font-weight: normal;
+}
+
+.Port_home{
+    max-width: 900px;
+    margin: 60px auto;
+}
+
+.Encanamentos{
+    max-width: 900px;
+    margin: 60px auto; 
+    padding: 40px 30px;
+    text-align: center;
+    background-color: #2B2B2B;
+    border-radius: 12px;
+    border-bottom: 4px solid #f1c40f; 
+    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+    color: white;
+}
+
+.Encanamentos h1 {
+    margin-bottom: 20px;
+    font-size: 28px;
+}
+
