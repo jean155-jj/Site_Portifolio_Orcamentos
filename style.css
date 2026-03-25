@@ -1,11 +1,12 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-body{
-    background: 
-        linear-gradient(rgba(0,0,0,0.90), rgba(0,0,0,0.90)),
+
+body {
+    background:
+        linear-gradient(rgba(0, 0, 0, 0.90), rgba(0, 0, 0, 0.90)),
         url('imagens/FUNDO.png');
 
     background-size: cover;
@@ -14,7 +15,8 @@ body{
     font-family: sans-serif;
 }
 
-header, footer{
+header,
+footer {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -23,20 +25,21 @@ header, footer{
     border: 1px solid black;
 }
 
-header{
+header {
     background-color: #2B2B2B;
     color: #ffffff;
     padding: 15px 5%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-bottom: 7px solid #FFC107; 
+    border-bottom: 7px solid #FFC107;
     flex-wrap: wrap;
     gap: 10px;
 }
 
-.bot1, .bot2{
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+.bot1,
+.bot2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: 100;
     text-align: center;
     color: #000000;
@@ -46,43 +49,43 @@ header{
     cursor: pointer;
     text-align: center;
     padding: 8px 20px;
-    font-size:small;
+    font-size: small;
     border-radius: 5px;
     display: inline-block;
     border: 1px solid black;
     text-decoration: none;
 }
 
-.BemVindo{
+.BemVindo {
     text-align: center;
     padding: 10px;
     margin-top: 30px;
 }
 
-.BemVindo h1{
+.BemVindo h1 {
     color: white;
     font-size: 2rem;
 }
 
-.BemVindo p{
+.BemVindo p {
     color: #f1c40f;
     font-size: 1.1rem;
 }
 
-h2{
+h2 {
     text-align: center;
 }
 
 .sobre {
     max-width: 900px;
     width: 90%;
-    margin: 60px auto; 
+    margin: 60px auto;
     padding: 40px 30px;
     text-align: center;
     background-color: #2B2B2B;
     border-radius: 12px;
-    border-bottom: 4px solid #f1c40f; 
-    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+    border-bottom: 4px solid #f1c40f;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
     color: white;
 }
 
@@ -103,22 +106,22 @@ h2{
     font-weight: normal;
 }
 
-.Port_home{
+.Port_home {
     max-width: 900px;
     width: 90%;
     margin: 60px auto;
 }
 
-.Encanamentos{
+.Encanamentos {
     max-width: 900px;
-    margin: 60px auto; 
+    margin: 60px auto;
     width: 90%;
     padding: 40px 30px;
     text-align: center;
     background-color: #2B2B2B;
     border-radius: 12px;
-    border-bottom: 4px solid #f1c40f; 
-    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+    border-bottom: 4px solid #f1c40f;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
     color: white;
 }
 
@@ -127,3 +130,86 @@ h2{
     font-size: 28px;
 }
 
+.Pizo_Porc {
+    max-width: 900px;
+    margin: 60px auto;
+    width: 90%;
+    padding: 40px 30px;
+    text-align: center;
+    background-color: #2B2B2B;
+    border-radius: 12px;
+    border-bottom: 4px solid #f1c40f;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+    color: white;
+}
+
+.Pizo_Porc h1 {
+    margin-bottom: 20px;
+    font-size: 28px;
+}
+
+.Reformas {
+    max-width: 900px;
+    margin: 60px auto;
+    width: 90%;
+    padding: 40px 30px;
+    text-align: center;
+    background-color: #2B2B2B;
+    border-radius: 12px;
+    border-bottom: 4px solid #f1c40f;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+    color: white;
+}
+
+.Reformas h1 {
+    margin-bottom: 20px;
+    font-size: 28px;
+}
+
+.final {
+    max-width: 900px;
+    margin: 80px auto;
+    padding: 40px 30px;
+    text-align: center;
+
+    background: rgba(0,0,0,0.6);
+    border-radius: 12px;
+    border: 2px solid #f1c40f;
+
+    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+}
+
+.final h2 {
+    color: #f1c40f;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.final .destaque {
+    color: white;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.final p {
+    color: #ccc;
+    margin-bottom: 20px;
+}
+
+
+.btn-final {
+    display: inline-block;
+    padding: 15px 35px;
+    background-color: #f1c40f;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 8px;
+
+    transition: 0.3s;
+}
+
+.btn-final:hover {
+    background-color: #ffdd33;
+    transform: scale(1.05);
+}
