@@ -11,6 +11,7 @@ body{
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
+    font-family: sans-serif;
 }
 
 header, footer{
@@ -18,21 +19,23 @@ header, footer{
     background-repeat: no-repeat;
     background-position: center;
     text-align: center;
-    padding: 0,05em;
+    padding: 10px;
     border: 1px solid black;
 }
 
 header{
     background-color: #2B2B2B;
     color: #ffffff;
-    padding: 15px 8%;
+    padding: 15px 5%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     border-bottom: 7px solid #FFC107; 
+    flex-wrap: wrap;
+    gap: 10px;
 }
 
-.bot1{
+.bot1, .bot2{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: 100;
     text-align: center;
@@ -42,45 +45,28 @@ header{
     margin: 5px 1px;
     cursor: pointer;
     text-align: center;
-    padding: 4px 25px;
+    padding: 8px 20px;
     font-size:small;
     border-radius: 5px;
     display: inline-block;
     border: 1px solid black;
-    
-}
-
-.bot2{
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-weight: 100;
-    text-align: center;
-    color: #000000;
-    border: none;
-    background-color: yellow;
-    margin: 5px 1px;
-    cursor: pointer;
-    text-align: center;
-    padding: 4px 25px;
-    font-size:small;
-    border-radius: 5px;
-    display: inline-block;
-    border: 1px solid black;
-    
+    text-decoration: none;
 }
 
 .BemVindo{
     text-align: center;
     padding: 10px;
-    margin-top: 40px;
     margin-top: 30px;
 }
 
 .BemVindo h1{
     color: white;
+    font-size: 2rem;
 }
 
 .BemVindo p{
     color: #f1c40f;
+    font-size: 1.1rem;
 }
 
 h2{
@@ -89,6 +75,7 @@ h2{
 
 .sobre {
     max-width: 900px;
+    width: 90%;
     margin: 60px auto; 
     padding: 40px 30px;
     text-align: center;
@@ -118,12 +105,14 @@ h2{
 
 .Port_home{
     max-width: 900px;
+    width: 90%;
     margin: 60px auto;
 }
 
 .Encanamentos{
     max-width: 900px;
     margin: 60px auto; 
+    width: 90%;
     padding: 40px 30px;
     text-align: center;
     background-color: #2B2B2B;
